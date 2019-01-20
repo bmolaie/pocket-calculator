@@ -1,154 +1,57 @@
-#piButton{
-  position:absolute;
-  top: 148px;
-  left: 190px;
-} 
-#divisionButton{
-  position:absolute;
-  left:802px;
-  top:148px;
-}
-#multiplcationButton{
-  position:absolute;
-  left:802px;
-  top:299px;
-}
-#subtractionButton{
-  position:absolute;
-  left:802px;
-  top:450px;
-}
-#additionButton{
-  position:absolute;
-  left:802px;
-  top:601px;
-}
-#equalButton{
-  position:absolute;
-  left:802px;
-  top:752px;
-}
-#decimalButton{
-  position:absolute;
-  left:651px;
-  top:752px;
-}
-#buttonNum0{
-  position:absolute;
-  left:349px;
-  top:752px;
-}
-#buttonNum1{
-  position:absolute;
-  left:349px;
-  top:601px;
-}
-#buttonNum2{
-  position:absolute;
-  left:500px;
-  top:601px;
-}
-#buttonNum3{
-  position:absolute;
-  left:651px;
-  top:601px;
-}
-#buttonNum4{
-  position:absolute;
-  left:349px;
-  top:450px;
-}
-#buttonNum5{
-  position:absolute;
-  left: 500px;
-  top: 450px;
-}
-#buttonNum6{
-  position:absolute;
-  left:651px;
-  top:450px;
-}
-#buttonNum7{
-position:absolute;
-left:349px;
-top:299px;
-}
-#buttonNum8{
-position:absolute;
-left:500px;
-top:299px;
-}
-#buttonNum9{
-position:absolute;
-left:651px;
-top:299px;
-}
-#clearButton{
-  position:absolute;
-  left:349px;
-  top:148px;
+button {
+font-size: 50px;
+color: white;
+background: #2a2b2b;
+height: 150px;
+width: 150px;
+border-radius: 50%;
+text-align: center;
+border: 2px solid black;
 }
 
-button:hover {
-  background-color: black;
+.operators {
+  background: #FF9500;
+}
+
+#zero {
+  font-size: 50px;
   color: white;
-  transition-duration: 0.69s;
+  height: 150px;
+  width: 300px;
+  border-radius: 80px / 80px;
+  text-align: center;
+  border: 2px solid black;
 }
 
-.calc-buttons{
-  width:150px;
-  height: 150px;
-  background-color: #EBE9E9;
+#parenth {
+    font-size: 49.5px;
+    color: white;
+    height: 150px;
+    width: 300px;
+    border-radius: 80px / 80px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.output {
+display: block;
+width: 47%;
+height: 120px;
+border: 2px solid black;
+font: "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
+font-size: 60px;
+color: white;
+}
+
+.mod {
+  background: #D4D4D2;
   color: black;
-  border: 2px solid black;
-  font-size: 48px;
-  font-family: sans-serif;
 }
-.zero-button{
-  width:301px;
-  height: 150px;
-  background-color: #EBE9E9;
-  color: black;
-  border: 2px solid black;
-  font-size: 48px;
-  font-family: sans-serif;
+
+#outPopUp {
+  align: center;
 }
-.function-buttons{
-  width:150px;
-  height: 150px;
-  background-color: orange;
-  color: black;
-  border: 2px solid black;
-  font-size: 48px;
-  font-family: sans-serif;
-}
-.clear-button{
-  width:150px;
-  height: 150px;
-  background-color: #E8431E;
-  color: black;
-  border: 2px solid black;
-  font-size: 48px;
-  font-family: sans-serif;
-}
-#negationButton{
-  position:absolute;
-  left:500px;
-  top:148px;
-}
-#percentageButton{
-  position:absolute;
-  left:651px;
-  top:148px;
-}
-input{
-  width:599px;
-  height:125px;
-  position:absolute;
-  left:349px;
-  top:15px;
-  text-align: right;
-  font-size: 60px;
-  color:black;
-  border: solid black 2px;
+
+body {
+  background-color: black;
 }
