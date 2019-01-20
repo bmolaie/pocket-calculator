@@ -1,108 +1,154 @@
-body {
-  	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/2000px-Flag_of_Zimbabwe.svg.png");
-    max-width: 500px;
-    margin: auto;
+#piButton{
+  position:absolute;
+  top: 148px;
+  left: 190px;
+}
+#divisionButton{
+  position:absolute;
+  left:802px;
+  top:148px;
+}
+#multiplcationButton{
+  position:absolute;
+  left:802px;
+  top:299px;
+}
+#subtractionButton{
+  position:absolute;
+  left:802px;
+  top:450px;
+}
+#additionButton{
+  position:absolute;
+  left:802px;
+  top:601px;
+}
+#equalButton{
+  position:absolute;
+  left:802px;
+  top:752px;
+}
+#decimalButton{
+  position:absolute;
+  left:651px;
+  top:752px;
+}
+#buttonNum0{
+  position:absolute;
+  left:349px;
+  top:752px;
+}
+#buttonNum1{
+  position:absolute;
+  left:349px;
+  top:601px;
+}
+#buttonNum2{
+  position:absolute;
+  left:500px;
+  top:601px;
+}
+#buttonNum3{
+  position:absolute;
+  left:651px;
+  top:601px;
+}
+#buttonNum4{
+  position:absolute;
+  left:349px;
+  top:450px;
+}
+#buttonNum5{
+  position:absolute;
+  left: 500px;
+  top: 450px;
+}
+#buttonNum6{
+  position:absolute;
+  left:651px;
+  top:450px;
+}
+#buttonNum7{
+position:absolute;
+left:349px;
+top:299px;
+}
+#buttonNum8{
+position:absolute;
+left:500px;
+top:299px;
+}
+#buttonNum9{
+position:absolute;
+left:651px;
+top:299px;
+}
+#clearButton{
+  position:absolute;
+  left:349px;
+  top:148px;
 }
 
-h1 {
-  font-family: stencil;
-  text-align: center;
-  color:lightgreen;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
-  text-shadow:
-    3px 3px 0 #000,
-  -1px -1px 0 #000,
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-    1px 1px 0 #000;
+button:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.69s;
 }
 
-h2 {
-  font-family: stencil;
-  text-align: center;
-  font-size: 20px;
-  color:red;
-  font-style:italic;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-}
-
-.button {
-  background-image: linear-gradient(to bottom right, red, yellow, green);
-  border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 2px 5px black;
+.calc-buttons{
+  width:150px;
+  height: 150px;
+  background-color: #EBE9E9;
   color: black;
-  font-family: Roboto Sans, sans-serif;
-  font-size: 1.8em;
-  height: 11%;
-  margin: 2%;
-  padding: 1%;
-  text-align: center;
-  width: 20%;
+  border: 2px solid black;
+  font-size: 48px;
+  font-family: sans-serif;
 }
-.cButton {
-  background-image: linear-gradient(to bottom right, red, lightgreen, lightblue, purple, yellow);
-  border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 2px 5px black;
+.zero-button{
+  width:301px;
+  height: 150px;
+  background-color: #EBE9E9;
   color: black;
-  font-family: Roboto Sans, sans-serif;
-  font-size: 1.5em;
-  height: 11%;
-  margin: 2%;
-  padding: 1%;
-  text-align: center;
-  width: 20%;
+  border: 2px solid black;
+  font-size: 48px;
+  font-family: sans-serif;
 }
-#calculator {
-  background-image: url(https://thumbs.gfycat.com/AdolescentNeedyHyrax-small.gif);
-  border: 1px solid black;
-  border-radius: 15px;
-  box-shadow: 10px 10px 5px black;
-  height: 600px;
-  margin: 0 auto;
-  width: 600px;
-}
-#display {
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 10px;
+.function-buttons{
+  width:150px;
+  height: 150px;
+  background-color: orange;
   color: black;
-  font-family: Roboto Sans, sans-serif;
-  font-size: 2.5em;
-  height: 40px;
-  margin: 40px auto 0;
-  padding: 10px;
+  border: 2px solid black;
+  font-size: 48px;
+  font-family: sans-serif;
+}
+.clear-button{
+  width:150px;
+  height: 150px;
+  background-color: #E8431E;
+  color: black;
+  border: 2px solid black;
+  font-size: 48px;
+  font-family: sans-serif;
+}
+#negationButton{
+  position:absolute;
+  left:500px;
+  top:148px;
+}
+#percentageButton{
+  position:absolute;
+  left:651px;
+  top:148px;
+}
+input{
+  width:599px;
+  height:125px;
+  position:absolute;
+  left:349px;
+  top:15px;
   text-align: right;
-  width: 250px;
-}
-#controls {
-  align-content: space-around;
-  display: -ms-flex;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  height: 70%;
-  justify-content: center;
-  margin: 8% auto 0;
-  width: 100%;
-}
-
-.marquee {
-width: 500px;
-line-height: 50px;
-color: Black;
-white-space: nowrap;
-box-sizing: border-box;
-}
-.marquee p {
-    display: inline-block;
-    padding-left: 100%;
-    animation: marquee 20s linear infinite;
-}
-@keyframes marquee {
-    0%   { transform: translate(0, 0); }
-    100% { transform: translate(-100%, 0); }
+  font-size: 60px;
+  color:black;
+  border: solid black 2px;
 }
