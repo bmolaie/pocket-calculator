@@ -38,61 +38,105 @@
   left:349px;
   top:752px;
 }
+buttonNum0:hover{
+  background-color: black;
+  color: white;
+  transition-duration: 0.69s;
+}
 #buttonNum1{
   position:absolute;
   left:349px;
   top:601px;
+}
+buttonNum1:hover{
+  background-color: black;
+  color: white;
+  transition-duration: 0.69s;
 }
 #buttonNum2{
   position:absolute;
   left:500px;
   top:601px;
 }
+buttonNum2:hover{
+  background-color: black;
+  color: white;
+  transition-duration: 0.69s;
+}
 #buttonNum3{
   position:absolute;
   left:651px;
   top:601px;
+}
+buttonNum3:hover{
+  background-color: black;
+  color: white;
+  transition-duration: 0.69s;
 }
 #buttonNum4{
   position:absolute;
   left:349px;
   top:450px;
 }
+buttonNum4:hover{
+  background-color: black;
+  color: white;
+  transition-duration: 0.69s;
+}
 #buttonNum5{
   position:absolute;
   left: 500px;
   top: 450px;
+}
+buttonNum5:hover{
+  background-color: black;
+  color: white;
+  transition-duration: 0.69s;
 }
 #buttonNum6{
   position:absolute;
   left:651px;
   top:450px;
 }
+buttonNum6:hover{
+  background-color: black;
+  color: white;
+  transition-duration: 0.69s;
+}
 #buttonNum7{
 position:absolute;
 left:349px;
 top:299px;
+}
+buttonNum7:hover{
+  background-color: black;
+  color: white;
+  transition-duration: 0.69s;
 }
 #buttonNum8{
 position:absolute;
 left:500px;
 top:299px;
 }
+buttonNum8:hover{
+  background-color: black;
+  color: white;
+  transition-duration: 0.69s;
+}
 #buttonNum9{
 position:absolute;
 left:651px;
 top:299px;
 }
+buttonNum9:hover{
+  background-color: black;
+  color: white;
+  transition-duration: 0.69s;
+}
 #clearButton{
   position:absolute;
   left:349px;
   top:148px;
-}
-
-button:hover {
-  background-color: black;
-  color: white;
-  transition-duration: 0.69s;
 }
 
 .calc-buttons{
