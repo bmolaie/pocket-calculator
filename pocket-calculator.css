@@ -38,7 +38,7 @@
   left:349px;
   top:752px;
 }
-buttonNum0:hover{
+#buttonNum0:hover{
   background-color: black;
   color: white;
   transition-duration: 0.69s;
@@ -48,7 +48,7 @@ buttonNum0:hover{
   left:349px;
   top:601px;
 }
-buttonNum1:hover{
+#buttonNum1:hover{
   background-color: black;
   color: white;
   transition-duration: 0.69s;
@@ -58,7 +58,7 @@ buttonNum1:hover{
   left:500px;
   top:601px;
 }
-buttonNum2:hover{
+#buttonNum2:hover{
   background-color: black;
   color: white;
   transition-duration: 0.69s;
@@ -68,7 +68,7 @@ buttonNum2:hover{
   left:651px;
   top:601px;
 }
-buttonNum3:hover{
+#buttonNum3:hover{
   background-color: black;
   color: white;
   transition-duration: 0.69s;
@@ -78,7 +78,7 @@ buttonNum3:hover{
   left:349px;
   top:450px;
 }
-buttonNum4:hover{
+#buttonNum4:hover{
   background-color: black;
   color: white;
   transition-duration: 0.69s;
@@ -88,7 +88,7 @@ buttonNum4:hover{
   left: 500px;
   top: 450px;
 }
-buttonNum5:hover{
+#buttonNum5:hover{
   background-color: black;
   color: white;
   transition-duration: 0.69s;
@@ -98,7 +98,7 @@ buttonNum5:hover{
   left:651px;
   top:450px;
 }
-buttonNum6:hover{
+#buttonNum6:hover{
   background-color: black;
   color: white;
   transition-duration: 0.69s;
@@ -108,7 +108,7 @@ position:absolute;
 left:349px;
 top:299px;
 }
-buttonNum7:hover{
+#buttonNum7:hover{
   background-color: black;
   color: white;
   transition-duration: 0.69s;
@@ -118,7 +118,7 @@ position:absolute;
 left:500px;
 top:299px;
 }
-buttonNum8:hover{
+#buttonNum8:hover{
   background-color: black;
   color: white;
   transition-duration: 0.69s;
@@ -128,7 +128,7 @@ position:absolute;
 left:651px;
 top:299px;
 }
-buttonNum9:hover{
+#buttonNum9:hover{
   background-color: black;
   color: white;
   transition-duration: 0.69s;
