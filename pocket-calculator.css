@@ -156,3 +156,6 @@ input{
   color:black;
   border: solid black 4px;
 }
+body {
+  background-image: url("colors.gif");
+}
