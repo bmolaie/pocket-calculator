@@ -118,7 +118,7 @@ button:hover {
 .function-buttons{
   width:150px;
   height: 150px;
-  background-color: orange;
+  background-color: #E8E4E4;
   color: black;
   border-radius: 80px / 80px;
   border: 4px solid black;
@@ -128,7 +128,7 @@ button:hover {
 .clear-button{
   width:150px;
   height: 150px;
-  background-color: #E8431E;
+  background-color: #FF8900;
   color: black;
   border-radius: 80px / 80px;
   border: 4px solid black;
