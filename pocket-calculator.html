@@ -1,32 +1,38 @@
 <!DOCTYPE html>
+
 <html>
   <head>
-      <title>Pocket Calculator</title>
-  <link rel="stylesheet" type="text/css" href="pocket-calculator.css">
-  <script type="text/javascript" src="pocket-calculator.js"></script>
+    <title>Pocket Calculator</title>
+  <script type="text/javascript" src="calculator.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
-  <body>
-    <div class="container">
-      <div id="display" class="display">0</div>
-      <div id="ac" class="number" onclick="clearAll();">AC</div>
-      <div id="+-" class="number">+/-</div>
-      <div id="%" class="number">%</div>
-      <div id="/" class="function" onclick="clearAll('/');">/</div>
-      <div id="button7" class="number" onclick="numPress(7);">7</div>
-      <div id="button8" class="number" onclick="numPress(8);">8</div>
-      <div id="button9" class="number" onclick="numPress(9);">9</div>
-      <div id="*" class="function" onclick="clearAll('*');">*</div>
-      <div id="button4" class="number" onclick="numPress(4);">4</div>
-      <div id="button5" class="number" onclick="numPress(5);">5</div>
-      <div id="button6" class="number" onclick="numPress(6);">6</div>
-      <div id="-" class="function" onclick="clearAll('-');">-</div>
-      <div id="button1" class="number" onclick="numPress(1);">1</div>
-      <div id="button2" class="number" onclick="numPress(2);">2</div>
-      <div id="button3" class="number" onclick="numPress(3);">3</div>
-      <div id="+" class="function" onclick="clearAll('+');">+</div>
-      <div id="button0" class="number" onclick="numPress(0);">0</div>
-      <div id="." class="number" onclick="useDecimal();">.</div>
-      <div id="=" class="function" onclick="evaluate1();">=</div>
-    </div>
+
+  <body onload="clearCalc()">
+    <div class=calculator>
+      <form name="calc">
+        <input name="display" disabled>
+      </form>
+      </div>
+    <button id="decimalButton" class="calc-buttons" onclick="decimalInsert('.');">.</button>
+    <button id="buttonNum0" class=zero-button onclick="insert(0)">0</button>
+    <button id="buttonNum1" class="calc-buttons" onclick="insert(1)">1</button>
+    <button id="buttonNum2" class=calc-buttons onclick="insert(2)">2</button>
+    <button id="buttonNum3" class=calc-buttons onclick="insert(3)">3</button>
+    <button id="buttonNum4" class=calc-buttons onclick="insert(4)">4</button>
+    <button id="buttonNum5" class=calc-buttons onclick="insert(5)">5</button>
+    <button id="buttonNum6" class=calc-buttons onclick="insert(6)">6</button>
+    <button id="buttonNum7" class="calc-buttons" onclick="insert(7)">7</button>
+    <button id="buttonNum8" class="calc-buttons"onclick="insert(8)">8</button>
+    <button id="buttonNum9" class="calc-buttons"onclick="insert(9)">9</button>
+    <button id="equalButton" class="function-buttons" onclick="equal();">=</button>
+    <button id="additionButton" class="function-buttons" onclick="insert('+'); clearOnOp();">+</button>
+    <button id="subtractionButton" class=function-buttons onclick="insert('-'); clearOnOp();">-</button>
+    <button id="multiplcationButton" class=function-buttons onclick="insert('*'); clearOnOp();">×</button>
+    <button id="divisionButton" class=function-buttons onclick="insert('/'); clearOnOp();">÷</button>
+    <button id="clearButton" class=clear-button onclick="clearCalc()">AC</button>
+    <button id="negationButton" class=function-buttons onclick="numberNegation();">+/-</button>
+    <button id="percentageButton" class=function-buttons onclick="numberPercentage();">%</button>
+    <button id ="piButton" class=function-buttons onclick=piInsert(3.1415926)>π</button>
+
   </body>
-</html>
+</html
