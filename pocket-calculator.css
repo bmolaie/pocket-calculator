@@ -137,11 +137,13 @@ button:hover {
 }
 #negationButton{
   position:absolute;
+  background-color: #FF8900;
   left:500px;
   top:148px;
 }
 #percentageButton{
   position:absolute;
+  background-color: #FF8900;
   left:651px;
   top:148px;
 }
