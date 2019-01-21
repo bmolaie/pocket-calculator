@@ -1,47 +1,154 @@
-.container{
-  display: grid;
-  grid-template-columns: 145px 145px 145px 145px;
-  grid-template-rows: 145px 145px 145px 145px 145px 145px;
+#piButton{
+  position:absolute;
+  top: 148px;
+  left: 190px;
+}
+#divisionButton{
+  position:absolute;
+  left:802px;
+  top:148px;
+}
+#multiplcationButton{
+  position:absolute;
+  left:802px;
+  top:299px;
+}
+#subtractionButton{
+  position:absolute;
+  left:802px;
+  top:450px;
+}
+#additionButton{
+  position:absolute;
+  left:802px;
+  top:601px;
+}
+#equalButton{
+  position:absolute;
+  left:802px;
+  top:752px;
+}
+#decimalButton{
+  position:absolute;
+  left:651px;
+  top:752px;
+}
+#buttonNum0{
+  position:absolute;
+  left:349px;
+  top:752px;
+}
+#buttonNum1{
+  position:absolute;
+  left:349px;
+  top:601px;
+}
+#buttonNum2{
+  position:absolute;
+  left:500px;
+  top:601px;
+}
+#buttonNum3{
+  position:absolute;
+  left:651px;
+  top:601px;
+}
+#buttonNum4{
+  position:absolute;
+  left:349px;
+  top:450px;
+}
+#buttonNum5{
+  position:absolute;
+  left: 500px;
+  top: 450px;
+}
+#buttonNum6{
+  position:absolute;
+  left:651px;
+  top:450px;
+}
+#buttonNum7{
+position:absolute;
+left:349px;
+top:299px;
+}
+#buttonNum8{
+position:absolute;
+left:500px;
+top:299px;
+}
+#buttonNum9{
+position:absolute;
+left:651px;
+top:299px;
+}
+#clearButton{
+  position:absolute;
+  left:349px;
+  top:148px;
 }
 
-div div{
-  width: 145px;
-  height: 145px;
+button:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.69s;
+}
+
+.calc-buttons{
+  width:150px;
+  height: 150px;
+  background-color: #EBE9E9;
+  color: black;
   border: 2px solid black;
-  font-size: 72px;
-  font-family: monospace;
-  text-align: center;
-  line-height: 145px;
+  font-size: 48px;
+  font-family: sans-serif;
 }
-
-#display{
-  grid-column-start: 1;
-  grid-column-end: 5;
-  width: 580px;
+.zero-button{
+  width:301px;
+  height: 150px;
+  background-color: #EBE9E9;
+  color: black;
+  border: 2px solid black;
+  font-size: 48px;
+  font-family: sans-serif;
+}
+.function-buttons{
+  width:150px;
+  height: 150px;
+  background-color: orange;
+  color: black;
+  border: 2px solid black;
+  font-size: 48px;
+  font-family: sans-serif;
+}
+.clear-button{
+  width:150px;
+  height: 150px;
+  background-color: #E8431E;
+  color: black;
+  border: 2px solid black;
+  font-size: 48px;
+  font-family: sans-serif;
+}
+#negationButton{
+  position:absolute;
+  left:500px;
+  top:148px;
+}
+#percentageButton{
+  position:absolute;
+  left:651px;
+  top:148px;
+}
+input{
+  width:599px;
+  height:125px;
+  position:absolute;
+  left:349px;
+  top:15px;
   text-align: right;
-  font-size: 90px;
-}
-
-#button0{
-  grid-column-start: 1;
-  grid-column-end: 3;
-  width: 290px;
-}
-
-.display{
-  background-color: #606060;
-  color: white;
-}
-
-.number{
-  background-color: #DFDFDF;
-}
-
-.function{
-  background-color: #4040BF;
-  color: white;
-}
-
-body {
-  background-image: url("Q4Rg.gif");
+  font-size: 60px;
+  color:black;
+  border: solid black 2px;
 }
