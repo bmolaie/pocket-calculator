@@ -98,7 +98,7 @@ button:hover {
 .calc-buttons{
   width:150px;
   height: 150px;
-  background-color: #EBE9E9;
+  background-color: #776F6F;
   color: black;
   border-radius: 80px / 80px;
   border: 2px solid black;
@@ -108,7 +108,7 @@ button:hover {
 .zero-button{
   width:301px;
   height: 150px;
-  background-color: #EBE9E9;
+  background-color: #776F6F;
   color: black;
   border-radius: 80px / 80px;
   border: 2px solid black;
