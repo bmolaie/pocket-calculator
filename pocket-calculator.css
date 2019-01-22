@@ -93,6 +93,10 @@ button:hover {
   color: white;
   transition-duration: 0.69s;
 }
+button:active{
+  background-color: black;
+  transform: translate(2px);
+}
 .calc-buttons{
   width:150px;
   height: 150px;
