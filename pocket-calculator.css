@@ -3,6 +3,21 @@
   top: 148px;
   left: 190px;
 }
+#exponentButton{
+  position:absolute;
+  left: 190px;
+  top: 299px;
+}
+#exponentButton2{
+  position:absolute;
+  left: 190px;
+  top: 450px;
+}
+#exponentButton3{
+  position:absolute;
+  left: 190px;
+  top: 601px;
+}
 #divisionButton{
   position:absolute;
   left:802px;
