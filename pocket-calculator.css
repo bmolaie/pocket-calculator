@@ -108,8 +108,9 @@ button:active{
   font: "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
 }
 .zero-button{
-  width:301px;
+  width:449px;
   height: 150px;
+  left:349px;
   background-color: #776F6F;
   color: black;
   border-radius: 80px / 80px;
@@ -150,10 +151,10 @@ button:active{
   top:148px;
 }
 input{
-  width:499px;
+  width:750px;
   height:125px;
   position:absolute;
-  left:349px;
+  left:199px;
   top:15px;
   text-align: right;
   font-size: 60px;
