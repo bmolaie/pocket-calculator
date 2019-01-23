@@ -2,42 +2,46 @@
 
 <html>
   <head>
-    <title>Pocket Calculator</title>
-  <link rel="stylesheet" type="text/css" href="pocket-calculator.css">
-  <script type="text/javascript" src="pocket-calculator.js"></script>
+      <link rel="stylesheet" type="text/css" href="pocket-calculator.css">
+      <script type="text/javascript" src="pocket-calculator.js"></script>
   </head>
-
-  <body onload="clearCalc()">
-    <div class=calculator>
-      <form name="calc">
-        <input name="display" disabled>
-      </form>
-      </div>
-    <button id="decimalButton" class="calc-buttons" onclick="decimalInsert('.');">.</button>
-    <button id="buttonNum0" class=zero-button onclick="insert(0)">0</button>
-    <button id="buttonNum1" class="calc-buttons" onclick="insert(1)">1</button>
-    <button id="buttonNum2" class=calc-buttons onclick="insert(2)">2</button>
-    <button id="buttonNum3" class=calc-buttons onclick="insert(3)">3</button>
-    <button id="buttonNum4" class=calc-buttons onclick="insert(4)">4</button>
-    <button id="buttonNum5" class=calc-buttons onclick="insert(5)">5</button>
-    <button id="buttonNum6" class=calc-buttons onclick="insert(6)">6</button>
-    <button id="buttonNum7" class="calc-buttons" onclick="insert(7)">7</button>
-    <button id="buttonNum8" class="calc-buttons"onclick="insert(8)">8</button>
-    <button id="buttonNum9" class="calc-buttons"onclick="insert(9)">9</button>
-    <button id="equalButton" class="function-buttons" onclick="equal();">=</button>
-    <button id="additionButton" class="function-buttons" onclick="insert('+'); clearOnOp();">+</button>
-    <button id="subtractionButton" class=function-buttons onclick="insert('-'); clearOnOp();">-</button>
-    <button id="multiplcationButton" class=function-buttons onclick="insert('*'); clearOnOp();">×</button>
-    <button id="divisionButton" class=function-buttons onclick="insert('/'); clearOnOp();">÷</button>
-    <button id="clearButton" class=clear-button onclick="clearCalc()">AC</button>
-    <button id="negationButton" class=function-buttons onclick="numberNegation();">+/-</button>
-    <button id="percentageButton" class=function-buttons onclick="numberPercentage();">%</button>
-    <button id ="piButton" class=function-buttons onclick=piInsert(3.1415926)>π</button>
-    <button id="exponentButton" class=function-buttons onclick="exponentButton();">x²</button>
-    <button id="exponentButton2" class=function-buttons onclick="exponentInsert(^3);">x³</button>
-    <button id="exponentButton3" class=function-buttons onclick="exponentInsert(^y);">x^y</button>
-
-
-
+  <body>
+    <div align="right">
+    </div>
+   <center>
+    <div id="output" class="output">0
+    </div>
+    <br/>
+    <button id="piButton" class=operator-buttons onclick="piButton()">pi</button>
+    <button id="clearButton" class=clear-button onclick="clearButton()">AC</button>
+    <button id="negationButton" class=operator-buttons onclick="negationButton();">+/-</button>
+    <button id="percentButton" class=operator-buttons onclick="percentButton();">%</button>
+    <button id="divisionButton" class=operator-buttons onclick="divisionButton();">/</button>
+    <div>
+    </div>
+    <button id="squareButton" class=operator-buttons onclick="squareButton()">x^2</button>
+    <button id="button7" class="calculator-buttons" onclick="button7()">7</button>
+    <button id="button8" class="calculator-buttons" onclick="button8()">8</button>
+    <button id="button9" class="calculator-buttons" onclick="button9()">9</button>
+    <button id="multiplicationButton" class=operator-buttons onclick="multiplicationButton();">x</button>
+    <div>
+    </div>
+    <button id="cubeButton" class=operator-buttons onclick="cubeButton()">x^3</button>
+    <button id="button4" class=calculator-buttons onclick="button4()">4</button>
+    <button id="button5" class=calculator-buttons onclick="button5()">5</button>
+    <button id="button6" class=calculator-buttons onclick="button6()">6</button>
+    <button id="subtractionButton" class=operator-buttons onclick="subtractionButton();">-</button>
+    <div>
+    </div>
+    <button id="button1" class="calculator-buttons" onclick="button1()">1</button>
+    <button id="button2" class=calculator-buttons onclick="button2()">2</button>
+    <button id="button3" class=calculator-buttons onclick="button3()">3</button>
+    <button id="additionButton" class="operator-buttons" onclick="additionButton();">+</button>
+    <div>
+    </div>
+    <button id="button0" class=zero-button onclick="button0()">0</button>
+    <button id="decimalButton" class="calculator-buttons" onclick="decimalButton();">.</button>
+    <button id="equalButton" class="operator-buttons" onclick="equalButton();">=</button>
+   </center>
   </body>
-</html
+</html>
