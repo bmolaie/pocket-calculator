@@ -1,182 +1,186 @@
 #piButton{
   position:absolute;
-  top: 148px;
-  left: 190px;
+  top: 149px;
+  height: 300px;
+  left: 265px;
 }
-#exponentButton{
+#squareButton{
   position:absolute;
-  left: 190px;
-  top: 299px;
-}
-#exponentButton2{
-  position:absolute;
-  left: 190px;
+  left: 265px;
   top: 450px;
 }
-#exponentButton3{
+#cubeButton{
   position:absolute;
-  left: 190px;
+  left: 265px;
   top: 601px;
 }
 #divisionButton{
   position:absolute;
-  left:802px;
+  left:877px;
   top:148px;
 }
-#multiplcationButton{
+#multiplicationButton{
   position:absolute;
-  left:802px;
+  left:877px;
   top:299px;
 }
 #subtractionButton{
   position:absolute;
-  left:802px;
+  left:877px;
   top:450px;
 }
 #additionButton{
   position:absolute;
-  left:802px;
+  left:877px;
   top:601px;
 }
 #equalButton{
   position:absolute;
-  left:802px;
+  left:877px;
   top:752px;
 }
 #decimalButton{
   position:absolute;
-  left:651px;
+  left:726px;
   top:752px;
 }
-#buttonNum0{
+#button0{
   position:absolute;
-  left:349px;
+  left:274px;
   top:752px;
 }
-#buttonNum1{
+#button1{
   position:absolute;
-  left:349px;
+  left:424px;
   top:601px;
 }
-#buttonNum2{
+#button2{
   position:absolute;
-  left:500px;
+  left:575px;
   top:601px;
 }
-#buttonNum3{
+#button3{
   position:absolute;
-  left:651px;
+  left:726px;
   top:601px;
 }
-#buttonNum4{
+#button4{
   position:absolute;
-  left:349px;
+  left:424px;
   top:450px;
 }
-#buttonNum5{
+#button5{
   position:absolute;
-  left: 500px;
+  left: 575px;
   top: 450px;
 }
-#buttonNum6{
+#button6{
   position:absolute;
-  left:651px;
+  left:726px;
   top:450px;
 }
-#buttonNum7{
+#button7{
 position:absolute;
-left:349px;
+left:424px;
 top:299px;
 }
-#buttonNum8{
+#button8{
 position:absolute;
-left:500px;
+left:575px;
 top:299px;
 }
-#buttonNum9{
+#button9{
 position:absolute;
-left:651px;
+left:726px;
 top:299px;
 }
 #clearButton{
   position:absolute;
-  left:349px;
+  left:424px;
   top:148px;
 }
+
 button:hover {
   background-color: black;
-  color: white;
-  transition-duration: 0.69s;
+  color: orange;
+  transition-duration: 0.58s;
 }
-button:active{
-  background-color: white;
-  transform: translate(2px);
-}
-.calc-buttons{
+
+.calculator-buttons{
   width:150px;
   height: 150px;
   background-color: #776F6F;
   color: black;
-  border-radius: 80px / 80px;
   border: 4px solid black;
+  border-radius: 80px / 80px;
   font-size: 48px;
   font: "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
 }
 .zero-button{
   width:449px;
   height: 150px;
-  left:199px;
   background-color: #776F6F;
   color: black;
-  border-radius: 80px / 80px;
   border: 4px solid black;
+  border-radius: 80px / 80px;
   font-size: 48px;
   font: "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
 }
-.function-buttons{
+.operator-buttons{
   width:150px;
   height: 150px;
   background-color: #E8E4E4;
   color: black;
-  border-radius: 80px / 80px;
   border: 4px solid black;
+  border-radius: 80px / 80px;
   font-size: 48px;
   font: "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
 }
 .clear-button{
   width:150px;
   height: 150px;
-  background-color: #FF8900;
-  color: black;
-  border-radius: 80px / 80px;
+  background-color: #FF8900;  color: black;
   border: 4px solid black;
+  border-radius: 80px / 80px;
   font-size: 48px;
   font: "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
 }
 #negationButton{
   position:absolute;
   background-color: #FF8900;
-  left:500px;
+  left:575px;
   top:148px;
 }
-#percentageButton{
+#negationButton:hover{
+  background-color: black;
+  color: orange;
+  transition-duration: 0.58s;
+}
+#percentButton{
   position:absolute;
   background-color: #FF8900;
-  left:651px;
+  left:726px;
   top:148px;
 }
-input{
-  width:760px;
+#percentButton:hover{
+  background-color: black;
+  color: orange;
+  transition-duration: 0.58s;
+}
+.output{
+  width:758px;
   height:125px;
   position:absolute;
-  left:189px;
+  left:267px;
   top:15px;
   text-align: right;
-  font-size: 60px;
+  font-size: 65px;
+  background-color: #E8E4E4;
   color:black;
-  background-color: white;
-  border: solid black 4px;
+  font: "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
+  display: block;
+  border: 4px solid black;
 }
 body{
-  background-color: url("https://media1.tenor.com/images/c5e4246d183b39fa3a8dede9c6d8bf96/tenor.gif?itemid=5680065");
+  background-image: url("https://66.media.tumblr.com/38836f998c27f5a474b3e70cfa68d59b/tumblr_np0jm3TtM71tp9egeo1_500.gif");
 }
